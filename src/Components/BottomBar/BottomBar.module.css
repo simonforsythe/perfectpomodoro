@@ -54,8 +54,15 @@ border:none;
     border-bottom-left-radius:10px;
     width:100px;
 
-    background: rgba(238,174,202,1);
+    background: rgb(197, 143, 166);
 
     color:white;
     padding:5px;
+}
+
+.stopButton:hover
+{
+    background: rgba(238,174,202,1);
+    cursor:pointer;
+    
 }
