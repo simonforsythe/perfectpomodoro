@@ -1,11 +1,11 @@
 import styles from './BackgroundPanel.module.css'
 
-function BackgroundPanel({time})
+function BackgroundPanel({time, style})
 {
 
 
     return(<>
-        <div className={styles.panel}>
+        <div className={styles.panel} style={style}>
             <div className={styles.timer}>
                 <p>{time}</p>
 
